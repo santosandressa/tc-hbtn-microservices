@@ -1,0 +1,14 @@
+Do ponto de vista de arquitetura, microsserviços são aplicações independentes, fracamente acopladas que se comunicam através de APIs.
+A arquitetura monolítica, todas suas funções estão em uma única aplicação, gerando alto acoplamento, e de alta escalabilidade, mas tudo depende do tamanho da aplicação,
+caso seja uma aplicação pequena, e sem muita complexidade, talvez não seja necessário implementar um microsserviço.
+Os microsserviços são implementados de maneira independente, ou seja, não precisam compartilhar a mesma linguagem e estrutura. Os desenvolvedores conseguem criar,
+e incluir novas funcionalidades sem comprometer nenhuma parte da aplicação.
+As vantagens de implementar uma arquitetura de microsserviços são:
+- O uso de diferentes linguagens de programação
+- Manutenção dos serviços - por trabalhar de modo independente, caso um serviço “falhe”, ou precise de manutenção, isso não prejudicará os demais serviços.
+- Atualização -  as atualizações são executadas a nível do próprio serviço, os dados são isolados, portanto não é necessário “parar” toda a aplicação para implementar uma nova atualização.
+Para realizar a comunicação entre microsserviços é necessário avaliar cada cenário,para definir qual tipo de comunicação será implementada
+Os tipos de comunicação são:
+- Comunicação síncrona - protocolo HTTP, geralmente através de APIs REST
+- Comunicação assíncrona - protocolo AMQP, usam mensagens assíncronas, sem retorno de uma resposta.
+
