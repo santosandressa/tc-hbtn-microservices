@@ -14,4 +14,9 @@
         <codigo_ibge>3509502</codigo_ibge>
     </cidade_info>
     <estado>SP</estado>
+
+    <result>
+        <status>OK</status>
+        <status_code>200</status_code>
+    </result>
 </root>
