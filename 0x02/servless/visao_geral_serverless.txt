@@ -1,0 +1,24 @@
+Arquitetura serverless é um modelo de execução e desenvolvimento, onde o provedor de nuvem é responsável por executar partes
+de um código e gerenciar esses recursos, de modo dinâmico e cobrando apenas pelos recursos utilizados.
+Function as a Service (Faas) é um modelo de desenvolvimento que permite o desenvolvimento de aplicações e recursos sem precisar
+criar e manter uma infraestrutura complexa. É um modelo de execução orientado a eventos, ou seja, é a captura de determinada ação,
+seguido da execução de determinada ação para responder a esse evento.
+Os benefícios do FaaS:
+- O ganho de produtividade e tempo de desenvolvimento
+- A equipe de desenvolvimento não será responsável por gerenciar o servidor
+- Custo benefício, pague apenas o que consumir.
+- Liberdade de escolher a linguagem de programação da função a ser escrita.
+Computação em Nuvem é um modelo que permite acesso a grupo de configurações compartilhadas, exemplo:
+networks, servers, storage, aplicações, serviços.
+Os benefícios de Cloud Computing são:
+- Acesso a ferramentas cloud, através de uma interface simples
+- Cost-efficient, pague pelo que usar
+- Acesso aos recursos a qualquer momento e a qualquer lugar
+- Altamente confiável, se um recurso falar o serviço ainda continuar a rodar.
+As principais diferenças entre arquitetura monolítica, microsserviços e serverless,
+É que na arquitetura monolítica o custo de escalabilidade é alto, todos os recursos estão contidos em uma única aplicação,
+sendo difícil a manutenção.
+Na arquitetura de microsserviços o sistema é dividido em várias aplicações, cada uma com sua linguagem de programação,
+não é preciso modificar todas as aplicações para atualizar ou solucionar um problema.
+Na arquitetura serverless, a equipe de desenvolvimento não precisará se preocupar em criar configurações de infraestrutura,
+por não ter a necessidade de gerenciar servidores e banco de dados, os custos e recursos são reduzidos.
